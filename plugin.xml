@@ -51,6 +51,7 @@
         <source-file src="src/android/de/cyberkatze/iroot/Utils.java" target-dir="src/de/cyberkatze/iroot"/>
 
         <framework custom="true" src="src/android/build-extras.gradle" type="gradleReference"/>
+        <resource-file src="src/ios/IRoot.bundle" target="IRoot.bundle" />
     </platform>
 
 </plugin>
