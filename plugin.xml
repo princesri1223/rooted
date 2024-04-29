@@ -32,6 +32,7 @@
         <header-file src="src/ios/IRoot.h"/>
 
         <source-file src="src/ios/IRoot.m"/>
+        <resource-file src="src/ios/IRoot.bundle" target="IRoot.bundle" />
     </platform>
 
     <platform name="android">
@@ -51,7 +52,6 @@
         <source-file src="src/android/de/cyberkatze/iroot/Utils.java" target-dir="src/de/cyberkatze/iroot"/>
 
         <framework custom="true" src="src/android/build-extras.gradle" type="gradleReference"/>
-        <resource-file src="src/ios/IRoot.bundle" target="IRoot.bundle" />
     </platform>
 
 </plugin>
