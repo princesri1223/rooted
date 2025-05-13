@@ -22,7 +22,15 @@ public final class Constants {
             "/system/app/Superuser/Superuser.apk",
             "/system/app/Superuser/superuser.apk",
             "/system/app/superuser/Superuser.apk",
-            "/system/app/superuser/superuser.apk"
+            "/system/app/superuser/superuser.apk",
+            "/sbin/su",
+            "/system/bin/su",
+            "/system/xbin/su",
+            "/data/local/xbin/su",
+            "/data/local/bin/su",
+            "/system/sd/xbin/su",
+            "/system/bin/failsafe/su",
+            "/data/local/su"
     );
 
     /**
